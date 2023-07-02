@@ -1,0 +1,276 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url(../Img-es/Fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  background-color: rgb(0, 11, 24);
+  display: flex;
+  justify-content: space-between;
+}
+
+/* PARTE IZQUIERDA */
+
+.nav1{
+  display: flex;
+  align-items: center;
+  padding: 0px 17px 0px ;
+}
+
+.nav1 img{
+  height: 35px;
+  padding: -10px;
+  justify-content: space-between;
+}
+
+img.logo{
+margin-right: 15px;
+}
+
+/* PARTE CENTRAL*/
+
+.cambioIdioma{
+  display: flex;
+}
+
+.nav2{
+  padding: 25px 25px;
+}
+
+
+.flagsItem img{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  justify-content: center ;
+}
+
+.cambiarIdioma{
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flagsItem{
+  width: 30px;
+}
+
+/* PARTE DERECHA*/
+
+header .nav3 .menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.menu ul li{
+  display: inline-block;
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 30px 25px;
+}
+
+.menu ul li a:hover{
+  transition: .5s;
+  background-color: rgba(154, 219, 232, 0.551);
+}
+
+/* FIN DEL NAVEGADOR*/
+
+/*-----------------------------cuerpo del trabajo--------------------------------*/
+/*Contenido de la pag.*/
+
+.principalContent{
+    background-color: rgba(0, 11, 24, 0.204);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 12px;
+    
+  }
+  
+  .content1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
+    height: 150px;
+    margin: auto;
+    padding: 25px;
+    color: white;
+    font-size: medium;
+  }
+  
+  h2{
+    font-weight: bold;
+    color: white;
+  }
+  
+  .op{
+  display: inline-block;
+  margin: auto;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+  }
+  
+  .op:hover{
+  background-color: #9adbe8;
+  color: white;
+  font-weight: bold;
+  transition: .5s;
+  cursor: pointer;
+  }
+  
+  .button1{
+  width: 85%;
+  height: 35px;
+  margin: auto;
+  display: flex;
+  }
+  
+  .button1 a{
+  margin: auto;
+  }
+  
+  .content2{
+  width: 75%;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  }
+  
+  .button2 a{
+  width: 120px;
+  height: 35px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  }
+  
+  .button2 a input{
+  width: 120px;
+  }
+  
+  .op2{
+  padding: 15px;
+  width: 10%; 
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+ 
+  }
+  
+  .op2:hover{
+  background-color: #9adbe8;
+  color: white;
+  font-weight: bold;
+  transition: .5s;
+  cursor: pointer;
+  }
+
+/*---------------------------fin cuerpo del trabajo------------------------------*/
+
+
+
+/* Inicio del footer*/
+
+footer{
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 11, 24);
+    height: auto;
+    width: 100%;
+    font-family: sans-serif;
+    padding-top: 40px;
+    color: white;
+  }
+  
+  .footerGeneral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footerGeneral h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  
+  .footerGeneral p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-style: 14px;
+  }
+  
+  .redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  
+  .redes li{
+    margin: 0 10px;
+  }
+  
+  .redes a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .redes a i{
+    font-style: 1.1rem;
+    transition: color .4 ease;
+  }
+  
+  .redes a:hover i{
+    color: rgb(154, 219, 232);    
+  }
+  
+  .footerAbajo{
+    background-color: rgba(4, 44, 93, 0.567);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footerAbajo p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }

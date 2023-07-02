@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../Style/style-consultas.css">
+
+    <!-- JavaScript-->
+    <script src="../Scrip/translate-consultas.js" charset="UTF-8"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../Img/logo4.png">
+
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <title>Consultas</title>
+</head>
+<body>
+    <!-- Navegador -->
+    <header>
+
+        <!-- El navegador se dividira en tres partes para tener un mejor y más sencillo manejo a la horas de ajustar -->
+        <!-- los items, "nav1" para la parte izquierda, "nav2" para la parte central, y "nav3" para la parte derecha -->
+
+        <!--Parte izquierda -->
+        <nav class="nav1">
+            <a href="#"><img src="../Img/logo negativo.ico" class="logo"></a>
+            <a href="../Html/Sesiónes.html"><img src="../Img/user.png" class="user"></a>
+        </nav>
+
+        <!-- Parte central -->
+        <nav class="nav2">
+            <div class="contenedor">
+                <div class="opciones">
+                    <div class="opcionPais" id="esp" onclick="traductor(this)">
+                        <img src="../Img/spain.png" alt="" class="bandera">
+                    </div>
+                    <div class="opcionPais" id="eng" onclick="traductor(this)">
+                        <img src="../Img/united-kingdom.png" alt="" class="bandera">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Parte derecha -->
+        <nav class="nav3">
+            <div class="menu">
+                <ul>
+                    <li><a href="../Html/Principal.html" id="1">Inicio</a></li>
+                    <li><a href="../Html/Consultas.html" id="2">Consulta</a></li>
+                    <li><a href="../Html/Especialidades.html" id="3">Especialidades</a></li>
+                    <li><a href="../Html/Ayuda.html" id="4">Ayuda</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin del navegador-->
+
+    <!------- Cuerpo del trabajo ------->
+    <div class="container">
+        <h2 class="tittle" id="5">Opciones para consultas</h2>
+        <br>
+        <div class="content">
+            <p id="6">Escoje una especialidad para comenzar el proceso...</p>
+            <br>
+            <div class="buttons">
+                <a href="../Html/Doctor1.html"><button type="submit" class="opcion" id="7" value="General">General</button></a>
+                <a href="../Html/Doctor1.html"><button type="submit" class="opcion" id="8" value="Cardiología">Cardiología</button></a>
+                <a href="../Html/Doctor1.html"><button type="submit" class="opcion" id="9" value="Cirujía">Cirujía</button></a>
+                <a href="../Html/Doctor1.html"><button type="submit" class="opcion" id="10" value="Dermatología">Dermatología</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- Fin del cuerpo -->
+
+
+    <!-- Para este footer ocuparemos un diseño sencillo y genérico -->
+    <footer>
+        <div class="footerGeneral">
+            <h3 id="11">Code opacity</h3>
+            <p id="12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta expedita dolor veritatis alias mollitia molestias praesentium totam. Quae, magnam quas.</p>
+            <ul class="redes">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footerAbajo">
+            <p id="13">Copyright &copy;2022 OMA-SV</p>
+        </div>
+    </footer>
+</body>
+</html>

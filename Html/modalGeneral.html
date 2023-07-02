@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../Style/modal.css">
+
+    <!-- JavaScript-->
+    <script src="../Scrip/translate-modal-general.js" charset="UTF-8"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../Img/logo4.png">
+
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <title>Ventana Modal General</title>
+</head>
+<body>
+     <!-- Navegador -->
+    <header>
+
+        <!-- El navegador se dividira en tres partes para tener un mejor y más sencillo manejo a la horas de ajustar -->
+        <!-- los items, "nav1" para la parte izquierda, "nav2" para la parte central, y "nav3" para la parte derecha -->
+
+        <!--Parte izquierda -->
+        <nav class="nav1">
+            <a href="#"><img src="../Img/logo negativo.ico" class="logo"></a>
+            <a href="../Html/Sesiónes.html"><img src="../Img/user.png" class="user"></a>
+        </nav>
+
+        <!-- Parte central -->
+        <nav class="nav2">
+            <div class="contenedor">
+                <div class="opciones">
+                    <div class="opcionPais" id="esp" onclick="traductor(this)">
+                        <img src="../Img/spain.png" alt="" class="bandera">
+                    </div>
+                    <div class="opcionPais" id="eng" onclick="traductor(this)">
+                        <img src="../Img/united-kingdom.png" alt="" class="bandera">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Parte derecha -->
+        <nav class="nav3">
+            <div class="menu">
+                <ul>
+                    <li><a href="../Html/Principal.html" id="1">Inicio</a></li>
+                    <li><a href="../Html/Consultas.html" id="2">Consulta</a></li>
+                    <li><a href="../Html/Especialidades.html" id="3">Especialidades</a></li>
+                    <li><a href="../Html/Ayuda.html" id="4">Ayuda</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin del navegador-->
+
+    <!------- Cuerpo del trabajo ------->
+    <section class="modal">
+        <div class="modal-container">
+            <img class="modal-img" src="../Img/icon-general.png" >
+            <h2 class="title" id="5">Medicina General</h2>
+            <p class="paragraph" id="6">La Medicina General es el primer nivel de atención médica. La consulta está orientada al abordaje integral del paciente en su aspecto físico, mental y social. </p>
+            <br>
+            <div class="btns">
+                <a href="../Html/Especialidades.html" class="open-view" id="7">Cerrar</a>
+            </div>
+            <a href="../Html/Especialidades.html" class="close">&times;</a>
+        </div>
+    </section>
+</body>
+</html> 

@@ -1,0 +1,210 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-sesion{
+    width: 400px;
+    height: 415px;
+    background: #E6E6E6;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 1000px;
+    box-shadow: 7px 13px 37px #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top: 4px solid #749DC2;
+    color: #FFF;
+}
+
+.logi{
+    margin: 0%;
+    text-align: center;
+    height: 70px;
+    padding-left: 40%;
+    padding-right: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controles{
+    width: 100%;
+    border: 1px solid #749DC2;
+    margin-bottom: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botones{
+    width: 100%;
+    height: 40px;
+    background: #749DC2;
+    border: none;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+
+.form-sesion p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.links{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-sesion a:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:500px){
+    form{
+        width: 100%;
+    }
+}
+
+/*Pantalla de carga JS*/
+#contenedor-carga{
+    background-color: rgba(250, 240, 245, 0.9);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: #135D59;
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar {
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+
+.ok{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #135D59;
+    color: #FFF;
+}
+
+.bad{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: #FFF;
+}
+
+/*----------------------------------------------------------------------------*/
+/*Estilo del footer*/
+footer{
+    padding-top: 15px;
+    background-color: #838C91;
+}
+
+/*Aliniado de los link*/
+.info{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/*Estilo de los titulos del footer*/
+.li-foo{
+    font-size: 35px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: #000;
+}
+
+.hr-foo{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/*Alineado del texto*/
+.txt-foo{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.p-foo{
+    line-height: 1.7rem;
+}
+
+/*Alieado de los iconos de redes sociales*/
+.app-foo{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+
+.app2-foo{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.app3-foo{
+    margin-left: 60px;
+    
+}
+
+/*Alineado para los derechos de autor*/
+.copy-foo{
+    text-align: center;
+    padding-bottom: 3%;
+    padding-top: 3%;
+    background-color: #555B5E;
+}

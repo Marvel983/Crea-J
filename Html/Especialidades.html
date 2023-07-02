@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../Style/style-especialidades.css">
+
+    <!-- JavaScript-->
+    <script src="../Scrip/translate-especialidades.js" charset="UTF-8"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../Img/logo4.png">
+
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <title>Especialidades</title>
+</head>
+<body>
+    <!-- Navegador -->
+    <header>
+
+        <!-- El navegador se dividira en tres partes para tener un mejor y más sencillo manejo a la horas de ajustar -->
+        <!-- los items, "nav1" para la parte izquierda, "nav2" para la parte central, y "nav3" para la parte derecha -->
+
+        <!--Parte izquierda -->
+        <nav class="nav1">
+            <a href="#"><img src="../Img/logo negativo.ico" class="logo"></a>
+            <a href="../Html/Sesiónes.html"><img src="../Img/user.png" class="user"></a>
+        </nav>
+
+        <!-- Parte central -->
+        <nav class="nav2">
+            <div class="contenedor">
+                <div class="opciones">
+                    <div class="opcionPais" id="esp" onclick="traductor(this)">
+                        <img src="../Img/spain.png" alt="" class="bandera">
+                    </div>
+                    <div class="opcionPais" id="eng" onclick="traductor(this)">
+                        <img src="../Img/united-kingdom.png" alt="" class="bandera">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Parte derecha -->
+        <nav class="nav3">
+            <div class="menu">
+                <ul>
+                    <li><a href="../Html/Principal.html" id="1">Inicio</a></li>
+                    <li><a href="../Html/Consultas.html" id="2">Consulta</a></li>
+                    <li><a href="../Html/Especialidades.html" id="3">Especialidades</a></li>
+                    <li><a href="../Html/Ayuda.html" id="4">Ayuda</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin del navegador-->
+
+    <!-- Cuerpo del incio-->
+
+    <main>
+        <section class="consul">
+            <h2 class="title" id="5">Especialidades Medicas</h2>
+            <hr class="hr-info">
+            <div class="contenedor-esp">
+                <div class="fila">
+                    <div class="icon-1">
+                        <div>
+                            <h2 class="titulo-ico-1" id="6">General</h2>
+                            <hr class="hr-info-1">
+                                <img class="icon-2" src="../Img/icon-general.png">
+                                <button id="abrir" class="titulo-bot">
+                                    <a href="../Html/modalGeneral.html" class="link-info" id="7"> Información </a>
+                                </button>
+                            </div>
+                        </div> 
+                        <div class="icon-1">
+                            <div>
+                                <h2 class="titulo-ico-2" id="8">Cardiología</h2>
+                                <hr class="hr-info-2">
+                                <img class="icon-2" src="../Img/icon-cardiologia.png">
+                                <button id="abrir" class="titulo-bot">
+                                    <a href="../Html/modalCardio.html" class="link-info" id="9"> Información </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fila_2">
+                        <div class="icon-1">
+                            <div>
+                                <h2 class="titulo-ico-3" id="10">Cirugía</h2>
+                                <hr class="hr-info-3">
+                                <img class="icon-2" src="../Img/icon-cirugia.png">
+                                <button id="abrir">
+                                    <a href="../Html/modalCirugia.html" class="link-info" id="11"> Información </a>
+                                </button>
+                            </div>    
+                        </div>
+                        <div class="icon-1">
+                            <div>
+                                <h2 class="titulo-ico-4" id="12">Dermatología</h2>
+                                <hr class="hr-info-4">
+                                <img class="icon-2" src="../Img/icon-dermatologia.png">
+                                <button id="abrir" class="titulo-bot">
+                                    <a href="../Html/modalDermatologia.html" class="link-info" id="13"> Información </a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<script src="../Scrip-es/modal.js"></script>--> 
+            </section>
+
+        </main>
+         <!-- Fin del especialidades-->
+
+
+         <!-- Para este footer ocuparemos un diseño sencillo y genérico -->
+        <footer>
+            <div class="footerGeneral">
+                <h3 id="14">Code opacity</h3>
+                <p id="15">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta expedita dolor veritatis alias mollitia molestias praesentium totam. Quae, magnam quas.</p>
+                <ul class="redes">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footerAbajo">
+                <p id="1">Copyright &copy;2022 OMA-SV</p>
+            </div>
+        </footer>
+</body>
+</html>

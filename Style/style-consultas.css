@@ -1,0 +1,250 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url(../Img/Fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+header{
+  background-color: rgb(0, 11, 24);
+  display: flex;
+  justify-content: space-between;
+  max-height: 85px;
+  z-index: 1000;
+}
+
+/* PARTE IZQUIERDA */
+
+.nav1{
+  display: flex;
+  align-items: center;
+  padding: 0px 17px 0px ;
+}
+
+.nav1 img{
+  height: 35px;
+  padding: -10px;
+  justify-content: space-between;
+}
+
+img.logo{
+margin-right: 15px;
+}
+
+/* PARTE CENTRAL*/
+
+/*Traductor en el menu de navegación*/
+
+.cambioIdioma{
+  display: flex;
+}
+
+.nav2{
+  padding: 25px 25px;
+}
+
+
+.opcionPais img{
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.contenedor{
+  width: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.flagsItem{
+  width: 30px;
+}
+
+/*Fin oficial del menu y del traductor*/
+
+/* PARTE DERECHA*/
+
+header .nav3 .menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+}
+
+.menu ul li{
+  display: inline-block;
+
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 30px 25px;
+}
+
+.menu ul li a:hover{
+  transition: .5s;
+  background-color: rgba(154, 219, 232, 0.551);
+}
+
+/* FIN DEL NAVEGADOR*/
+
+/*-----------------------------cuerpo del trabajo--------------------------------*/
+/*Contenido de la pag.*/
+  
+  .container{
+    background-color: rgba(0, 11, 24, 0.204);
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    border-radius: 12px;
+    display: flex;
+    position: absolute;
+    left: 33%;
+    bottom: 40%;
+    flex-direction: column;
+    margin: auto;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tittle{
+    width: 400px;
+    display: flex;
+    margin: auto;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    color: white;
+}
+
+.content p{
+    display: flex;
+    margin: auto;
+    height: 35px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.buttons{
+    display: flex;
+    margin: 5% 0% 10% 0%;
+    width: 475px;
+    height: 75px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.buttons a button{
+    padding: 15px;
+    border-radius: 12px;
+    border: none;
+    width: 130px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.buttons a button:hover{
+  background-color: #9adbe8;
+  color: white;
+  font-weight: bold;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.opcion{
+  margin-left: 15px;
+}
+
+  /*---------------------------fin cuerpo del trabajo------------------------------*/
+
+
+
+/* Inicio del footer*/
+
+footer{
+    position: absolute;
+    bottom: -40%;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 11, 24);
+    height: auto;
+    width: 100%;
+    font-family: sans-serif;
+    padding-top: 40px;
+    color: white;
+  }
+  
+  .footerGeneral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .footerGeneral h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+  }
+  
+  .footerGeneral p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-style: 14px;
+  }
+  
+  .redes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+  }
+  
+  .redes li{
+    margin: 0 10px;
+  }
+  
+  .redes a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .redes a i{
+    font-style: 1.1rem;
+    transition: color .4 ease;
+  }
+  
+  .redes a:hover i{
+    color: rgb(154, 219, 232);    
+  }
+  
+  .footerAbajo{
+    background-color: rgba(4, 44, 93, 0.567);
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footerAbajo p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../Img-es/user.jpg">
+        <link rel="stylesheet" href="../Style-es/Cita.css">
+        <!-- Favicon -->
+        <link rel="icon" href="../Img-es/logo negativo.ico">
+        <title>Cita</title>
+    </head>
+    <body>
+        <!-- Navegador -->
+        <header>
+
+        <!-- El navegador se dividira en tres partes para tener un mejor y más sencillo manejo a la horas de ajustar -->
+        <!-- los items, "nav1" para la parte izquierda, "nav2" para la parte central, y "nav3" para la parte derecha -->
+
+        <!--Parte izquierda -->
+        <nav class="nav1">
+            <a href="#"><img src="../Img-es/logo negativo.ico" class="logo"></a>
+            <a href="#"><img src="../img-es/user.png" class="user"></a>
+        </nav>
+
+        <!-- Parte central -->
+        <nav class="nav2">
+            <div id="flags" class="cambiarIdioma">
+                <div class="flagsItem" data-languaje="es">
+                    <img src="../Img-es/spain.png" class="translate" id="es">
+                </div>
+
+                <div class="flagsItem" data-languaje="en">
+                    <img src="../Img-es/united-kingdom.png" class="translate" id="en">
+                </div>
+            </div>
+        </nav>
+        <!-- Parte derecha -->
+        <nav class="nav3">
+            <div class="menu">
+                <ul>
+                    <li><a href="../Html-es/Principal.html">Inicio</a></li>
+                    <li><a href="../Html-es/Consultas.html">Consulta</a></li>
+                    <li><a href="../Html-es/Especialidades.html">Especialidades</a></li>
+                    <li><a href="../Html-es/Ayuda.html">Ayuda</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin del navegador-->
+
+
+        <!-------------------------------------------------------------------------------------------------->
+        <section class="formulario">
+            <h4>Cita</h4>
+            <input class="lol" type="text" name="Nombres" id="nombre" placeholder="Nombre">
+            <input class="lol" type="text" name="N° Dui" id="Dui" placeholder="DUI">
+            <input class="lol" type="password" name="Contraseña" id="contra" placeholder="Contraseña">
+            <input class="lol" type="date" name="Fecha" id="Fecha" placeholder="Fecha">
+            <input class="lol" type="time" name="Hora preferida" id="hora" placeholder="Hora preferida">
+            <p class="ju">*Especialidad*</p>
+            <a class="botones" href="../Html-es/Consultas.html"><input type="submit" class="op" value="Regresar"></a>
+                    <a class="botones" href="../Html-es/Cita realizada.html"><input type="submit" class="op" value="Finalizar"></a>
+        </section>
+        <!-- Fin del incio -->
+
+
+        <!-- Para este footer ocuparemos un diseño sencillo y genérico -->
+        <footer>
+            <div class="footerGeneral">
+                <h3>Code opacity</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta expedita dolor veritatis alias mollitia molestias praesentium totam. Quae, magnam quas.</p>
+                <ul class="redes">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="footerAbajo">
+                <p>Copyright &copy;2022 OMA-SV</p>
+            </div>
+        </footer>
+    </body>
+</html>

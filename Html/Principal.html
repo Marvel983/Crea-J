@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="../Style/style-principal.css">
+
+    <!-- JavaScript-->
+    <script src="../Scrip/trasnlate-principal.js" charset="UTF-8"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" href="../Img/logo4.png">
+
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <title>Inicio</title>
+</head>
+<body>
+    <!-- Navegador -->
+    <header>
+
+        <!-- El navegador se dividira en tres partes para tener un mejor y más sencillo manejo a la horas de ajustar -->
+        <!-- los items, "nav1" para la parte izquierda, "nav2" para la parte central, y "nav3" para la parte derecha -->
+
+        <!--Parte izquierda -->
+        <nav class="nav1">
+            <a href="#"><img src="../Img/logo negativo.ico" class="logo"></a>
+            <a href="../Html/Sesiónes.html"><img src="../Img/user.png" class="user"></a>
+        </nav>
+
+        <!-- Parte central -->
+        <nav class="nav2">
+            <div class="contenedor">
+                <div class="opciones">
+                    <div class="opcionPais" id="esp" onclick="traductor(this)">
+                        <img src="../Img/spain.png" alt="" class="bandera">
+                    </div>
+                    <div class="opcionPais" id="eng" onclick="traductor(this)">
+                        <img src="../Img/united-kingdom.png" alt="" class="bandera">
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- Parte derecha -->
+        <nav class="nav3">
+            <div class="menu">
+                <ul>
+                    <li><a href="../Html/Principal.html" id="1">Inicio</a></li>
+                    <li><a href="../Html/Consultas.html" id="2">Consulta</a></li>
+                    <li><a href="../Html/Especialidades.html" id="3">Especialidades</a></li>
+                    <li><a href="../Html/Ayuda.html" id="4">Ayuda</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- Fin del navegador-->
+
+    <!------- Cuerpo del trabajo ------->
+    <main>
+        <section>
+            <div id="slider-wrapper">
+                <div class="inner-wrapper">
+                    <input checked type="radio" name="slide" class="control" id="Slide1" />
+                    <label for="Slide1" id="s1"></label>
+                    <input type="radio" name="slide" class="control" id="Slide2" />
+                    <label for="Slide2" id="s2"></label>
+                    <input type="radio" name="slide" class="control" id="Slide3" />
+                    <label for="Slide3" id="s3"></label>
+                    <input type="radio" name="slide" class="control" id="Slide4" />
+                    <label for="Slide4" id="s4"></label>
+                    <div class="overflow-wrapper">
+                        <a class="slide" href=""><img src="../Img/slider-1.jpg"  class="img-sli"></a>
+                        <a class="slide" href=""><img src="../Img/slider-2 .jpg" class="img-sli"/></a>
+                        <a class="slide" href=""><img src="../Img/slider-3.jpg" class="img-sli"/></a>
+                        <a class="slide" href=""><img src="../Img/slider-4.jpg" class="img-sli"/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="principalContent">
+                <div class="content1">
+                    <h2 id="5">Servicio para tu cuidado y el de tu familia.</h2>
+                    <br>
+                    <p id="6">¿Buscas servicios de consultas? Estamos para apoyarte. Únicamente necesitamos un poco sobre tu informacion personal para que la puedas realizar segun la especialidad que necesites.</p>
+                </div>
+                <div class="button1">
+                    <a class="botones" href="../Php/iniciar.php"><button id="7" type="submit" class="op" value="Inicio Sesión">Inicio Sesion</button></a>
+                    <a class="botones" href="../Html/Especialidades.html"><button id="8" type="submit" class="op" value="Especialidades">Especialidades</button></a>
+                </div>  
+                <br>
+                <br>
+                <div class="content2">
+                    <p id="9">Si necesitas apoyo en el proceso, no dudes en contactarnos o para asistirte con personal de enfermería o un médico a domicilio.</p>
+                </div>
+                <br>
+                <div class="button2">
+                    <a class="botones" href="../Html/Ayuda.html"><button id="10" type="submit" class="op2" value="Ayuda">Ayuda</button></a> 
+                </div>
+                <br>
+                <br>
+            </div>
+        </section>
+    </main>
+    <!-- Fin del incio -->
+
+
+    <!-- Para este footer ocuparemos un diseño sencillo y genérico -->
+    <footer>
+        <div class="footerGeneral">
+            <h3 id="11">Code opacity</h3>
+            <p id="12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta expedita dolor veritatis alias mollitia molestias praesentium totam. Quae, magnam quas.</p>
+            <ul class="redes">
+                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="footerAbajo">
+            <p id="13">Copyright &copy;2022 OMA-SV</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript-->
+    <script src="../Scrip/trasnlate-principal.js" charset="utf-8"></script>
+
+</body>
+</html>

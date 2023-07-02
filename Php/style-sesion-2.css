@@ -1,0 +1,103 @@
+*{
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-sesion{
+    width: 400px;
+    height: 625px;
+    background: #E6E6E6;
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 50px;
+    box-shadow: 7px 13px 37px #000; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-top: 4px solid #749DC2;
+    color: #FFF;
+}
+
+.logi{
+    margin: 0%;
+    text-align: center;
+    height: 70px;
+    padding-left: 40%;
+    padding-right: 40%;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controles{
+    width: 100%;
+    border: 1px solid #749DC2;
+    margin-bottom: 15px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.sexo-text{
+    color: #000;
+}
+
+.sexo-es{
+    width: 150px;
+    height: 35px;
+    border: 1px solid #749DC2;
+}
+
+option{
+    text-align: left;
+}
+
+.botones{
+    width: 100%;
+    height: 40px;
+    background: #749DC2;
+    border: none;
+    color: #FFF;
+    margin-bottom: 16px;
+}
+
+.form-sesion p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.form-sesion a{
+    color: #FFF;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.form-sesion a:hover{
+    text-decoration: underline;
+}
+
+.ok{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: #135D59;
+    color: #FFF;
+}
+
+.bad{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: #FFF;
+}
